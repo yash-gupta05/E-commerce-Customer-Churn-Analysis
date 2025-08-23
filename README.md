@@ -1,29 +1,47 @@
 # 📘 E-commerce-Customer-Churn-Analysis
-Comprehensive e-commerce customer churn analysis report created with Power BI Desktop. Using data imported from Excel and cleaned through MySQL, it features interactive dashboards and detailed visualizations to uncover trends, patterns, and key factors influencing customer retention and attrition.
+This project provides a comprehensive analysis and prediction framework for customer churn in an e-commerce platform. It combines exploratory data analysis (EDA), data preprocessing, interactive dashboards, and machine learning models to predict customer churn and uncover insights for better retention strategies.
 
 # 🎯 Objectives
 
 1. Clean and preprocess raw data.
 
-2. Calculate churn rate and customer distribution.
+2. Predict Churn: Build machine learning models to accurately predict which customers are likely to churn.
 
-3. Explore churn by tenure, device, city tier, payment mode, gender, satisfaction, complaints, coupons, cashback.
+3. Evaluate & Interpret Models: Assess model performance using metrics like Accuracy, Precision, Recall, F1-score, and ROC-AUC; interpret predictions using SHAP values.
 
-4. Design a dashboard to track KPIs.
+3. Calculate churn rate and customer distribution.
 
-# 🛠 Data Cleaning
+4. Explore churn by tenure, device, city tier, payment mode, gender, satisfaction, complaints, coupons, cashback.
 
-1. Removed duplicates & blanks → NULL.
+5. Design a dashboard to track KPIs.
 
-2. Standardized categories (Phone, COD, Mobile, Male/Female).
+# 🛠 Data Cleaning & Analysis
 
-3. Created tenure buckets: 0–6, 7–12, 13–24, 25+ months.
+Data cleaning and preprocessing steps include:
+
+1. Removing duplicates and handling NULL values.
+
+2. Standardizing categories (e.g., Phone, COD, Mobile, Male/Female).
+
+3. Creating tenure buckets: 0–6, 7–12, 13–24, 25+ months.
+
+4. Exploratory analysis of churn distribution by tenure, device, city tier, payment mode, gender, satisfaction, complaints, coupons, and cashback.
+
+# 🔮 Churn Prediction
+
+1. Models: Logistic Regression, Random Forest, SVM, Gradient Boosting (XGBoost).
+
+2. Preprocessing: categorical encoding, feature engineering, class imbalance handling, train-test split.
+
+3. Evaluation metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC.
 
 # 🛠 Tools
 
-1. SQL (MySQL) → Data Cleaning & Analysis
+1. SQL (MySQL), Python (Pandas, NumPy) → Data Cleaning & Analysis
 
-2. Power BI / Tableau → Dashboard & Visualization
+2. Jupyter Notebook, Scikit-learn, XGBoost → Machine Learning & Modeling
+
+3. Power BI / Tableau, Matplotlib, Seaborn → Dashboard & Visualization
 
 # 📊 Key Insights Highlighted in the Report:
 
@@ -44,3 +62,11 @@ Comprehensive e-commerce customer churn analysis report created with Power BI De
 8. Satisfaction Level Impact: Highly satisfied customers (rating 5) exhibit a relatively higher churn rate, suggesting the need for proactive retention strategies across all satisfaction levels.
 
 Utilizing interactive visualizations and intuitive analysis, this report provides valuable insights for stakeholders, marketing teams, and decision-makers in the e-commerce industry. By understanding the factors influencing churn, businesses can implement targeted strategies to improve customer retention and drive growth.
+
+# ⚙️ Usage
+
+1. Predict customer churn and identify high-risk customers.
+
+2. Analyze factors influencing churn for targeted retention strategies.
+
+3. Customize dashboards and models for business-specific insights.
