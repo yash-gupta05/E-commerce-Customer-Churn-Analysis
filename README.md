@@ -1,4 +1,4 @@
-# 📘 E-commerce-Customer-Churn-Analysis
+# 📘 E-commerce-Customer-Churn-Analysis & Prediction
 This project provides a comprehensive analysis and prediction framework for customer churn in an e-commerce platform. It combines exploratory data analysis (EDA), data preprocessing, interactive dashboards, and machine learning models to predict customer churn and uncover insights for better retention strategies.
 
 # 🎯 Objectives
